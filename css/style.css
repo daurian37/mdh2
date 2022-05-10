@@ -1,0 +1,344 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+body
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	background: red;
+	color: #a5a5a5;
+}
+.imgC{
+    border-radius:150px;
+    background: green;
+    padding: 3px;
+    height: 300px;
+    width: 500px;
+}
+.icnC{
+    background-color: white;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    
+}
+.icnC i{
+    padding: 15px;
+}
+    .avatar{
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    margin-top:-12px;
+}
+.headband{
+    background-color: rgba(255,255,255,0.7); 
+    color: rgba(255,255,255,0.5);
+}
+.headband a{
+    color: green;
+    line-height: 1.3;
+    font-weight: 400;
+}
+.headband a:hover{
+    color: black;
+}
+.fb{
+    margin-top: -20px;
+    position: absolute;
+}
+.headtext{
+    width:100%;
+    height:70px;
+    padding:30px 0;
+}
+.headtextt{
+    width:100%;
+    height:70px;
+    padding:30px 0;
+}
+.fa{
+    font-weight: 900;
+    
+}
+.fa-fw{
+    width: 3em;
+}
+.titrage{
+    font-size: 25px !important;
+	font-weight: 700 !important;
+	color: green !important;
+    font-family:Century Gothic ;
+}
+.btext > p{
+    font-size: 18px !important;
+	font-weight: 500 !important;
+    font-family:Century Gothic ;
+}
+.bcolor{
+    color: white;
+    background: green;
+}
+.persn > li> a{
+    color: green;
+    background-color: green;
+}
+
+/*********************************
+7. Contact
+*********************************/
+
+.contact
+{
+	width: 100%;
+	background: #FFFFFF;
+}
+.contact_form > div
+{
+	width: calc((130% - 30px) / 2);
+	float: right;
+}
+.contact_input
+{
+	width: 100%;
+	height: 53px;
+	margin-bottom: 18px;
+	background: #f5f2fa;
+	border: none;
+	outline: none;
+	padding-left: 25px;
+	border-bottom: solid 3px green;
+}
+.contact_textarea
+{
+	height: 263px;
+	padding-top: 18px;
+	border-bottom: solid 4px green;
+}
+.contact_input::-webkit-input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: green !important;
+}
+.contact_input:-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: green !important;
+}
+.contact_input::-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: green !important;
+} 
+.contact_input:-ms-input-placeholder
+{ 
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: green !important;
+}
+.contact_input::input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: green !important;
+}
+.contact_button
+{
+	width: 181px;
+	height: 50px;
+	background: green;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	margin-top: 3px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.contact_buttonx
+{
+	width: 181px;
+	height: 50px;
+	background: #f5f2fa;
+    border: solid 2px green;
+	cursor: pointer;
+	outline: none;
+	margin-top: 3px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.contact_button span::after
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	width: 100%;
+	height: 3px;
+	background: #f5f2fa;
+}
+.contact_button:hover
+{
+	background: #f5f2fa;
+    color: green;
+}
+.icon{
+    50px;
+}
+
+
+/************************************* ajout daurian  ******************************/
+
+
+/*.chatbox{
+width: 500px;
+min-width: 390px;
+height: 600px;
+background: #fff;
+padding: 25px;
+margin: 20px auto;
+box-shadow: 0 3px #ccc;
+}
+
+.chatlogs{
+
+padding: 10px;
+width: 100%;
+height: 450px;
+overflow-x:hidden;
+overflow-y: scroll; 
+
+}
+
+.chatlogs:: -webkit-scrollbar{
+
+width: 10px;
+}
+
+
+.chatlogs:: -webkit-scrollbar-thumb{
+border-radius: 5px;
+background: rgba(0, 0, 0, .1);
+}
+
+.chat{
+
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	margin-bottom: 10px;
+}
+
+.chat .user-photo{
+
+	width: 60px;
+	height: 60px;
+	background: #ccc;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.chat .user-photo img{
+
+	width: 100%;
+}
+
+.chat .chat-message{
+
+	width: 280px;
+	padding: 15px;
+	margin: 5px 10px 0;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.friend .chat-message{
+
+	background: #1adda4;
+}
+
+.self .chat-message{
+
+	background: #1ddced;
+	order: -1;	
+}
+
+.chat-form{
+
+	margin-top: 20px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.chat-form textarea{
+
+	background: #fbfbfb;
+	width: 75%;
+	height: 50px;
+	border: 2px solid #eee;
+	border-radius: 3px;
+	resize: none;
+	padding: 10px;
+	font-size: 18px;
+	color: #333;
+} 
+
+.chat-form textarea:: -webkit-scrollbar{
+
+width: 10px;
+}
+
+
+.chat-form textarea:: -webkit-scrollbar-thumb{
+border-radius: 5px;
+background: rgba(0, 0, 0, .1);
+}
+
+.chat-form textarea:focus{
+
+	background: #fff;
+}
+
+.chat-form button{
+
+	background:#1ddced;
+	padding: 27px 15px;
+	font-size: 30px;
+	color:#fff;
+	border: none;
+	margin: 0 10px;
+	border-radius: 3px;
+	box-shadow: 0 3px 0 #0eb2c1;
+	cursor: pointer;
+
+	-webkit-transition:background .2s ease;
+	-moz-transition:background .2s ease;
+	-o-transition:background .2s ease;
+}
+
+.chat-form button:hover{
+
+	background:#13c8d9;
+
+}*/
+
